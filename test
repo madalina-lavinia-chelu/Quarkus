@@ -1,0 +1,4 @@
+
+    @Test
+    void validateRequest_WithMissingFileNameHeader_ReturnBadRequest() throws JsonProcessingException {
+        var request = mock(HttpRequestMessage.
